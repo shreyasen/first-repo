@@ -1,18 +1,20 @@
 .main-page {
     /* margin: auto;
     width: 60%; */
-    /* border: 1px solid #000; */
+    /* border: 1px solid #darkslategray; */
     padding: 0px 10px;
 }
 
 .left-col {
-    background-color: #003D74 !important;
+    background-color: lightgray !important;
     padding: 0% !important;
-    padding-left: 1rem !important;
     height: 1129px;
 }
+.paddingLeft {
+    padding-left: 2rem !important;
+}
 .whiteText {
-    color: #fff !important;
+    color: black !important;
 }
 .avatar {
     vertical-align: middle;
@@ -25,7 +27,7 @@
 }
 .name {
     font-weight: bold;
-    color: #002E58 !important;
+    color: darkslategray !important;
 }
 .position {
     font-weight: bold;
@@ -35,7 +37,7 @@
 }
 .left-sub-header {
     font-size: 2rem;
-    background-color: #002E58 !important;
+    background-color: darkgray !important;
     padding: 1rem;
     font-weight: bold;
 }
@@ -50,15 +52,15 @@
     line-height: 40px;
     border-radius: 25px;
     background-color: #f1f1f1;
-    color: #002E58;
+    color: darkslategray;
 }
 .right-sub-head {
     padding: 1rem;
-    border-top: 1px solid #002E58 !important;
-    border-bottom: 1px solid #002E58 !important;
+    border-top: 1px solid darkslategray !important;
+    border-bottom: 1px solid darkslategray !important;
     font-size: 2rem;
     font-weight: bold;
-    color: #002E58 !important;
+    color: darkslategray !important;
 }
 .company {
     font-style: italic;
